@@ -9,10 +9,16 @@ for (let n of names) {
 }
 
 // this is supposed to be launched from the root
-const dir = new fspath('data/parts-names.csv')
+let dir = new fspath('data/parts-names.csv')
 const data = parse(dir.read())
 
+let genes = data[0].slice(1).map(e => {
+  if (e === 'Horns') return 'A'
+  else return e.substring(0,1)
+})
+
 const originalDNA = {}
+const finalDNA = {}
 
 function capitalize(str) {
   return str.split(' ').map(e => e.substring(0,1).toUpperCase() + e.substring(1)).join(' ')
@@ -31,7 +37,44 @@ for (let i=1;i<data.length;i++) {
   originalDNA['L07E'+n] = capitalize(d[7])
 }
 
-// console.log(originalDNA)
+dir = new fspath('data/special-parts-names.csv')
+const specials = parse(dir.read())
+
+for (let i=1;i<specials.length; i++) {
+  let d = specials[i]
+  originalDNA[d[1]+ 'b'] = capitalize(d[0])
+}
+
+
+
+
+// console.log('Looking for duplicates')
+//
+let checkForDuplicates = {}
+let duplicateFound = false
+
+for (let gene in originalDNA) {
+  if (checkForDuplicates[originalDNA[gene]]) {
+    console.log(gene, originalDNA[gene])
+    duplicateFound = true
+  }
+  checkForDuplicates[originalDNA[gene]] = 1
+}
+
+if (duplicateFound) {
+  console.error('Whoops, there are duplicates')
+  process.exit(1)
+}
+
 (new fspath('data/originalDNA.json')).write(JSON.stringify(originalDNA, null, 2))
 
+for (let gene in originalDNA) {
+  let name = originalDNA[gene]
+  gene = gene.replace(/L0(\d{1})E(\d+)([a-z]*)/, function (a, b, c, d) {
+    // console.log(a, b,c,d)
+    return genes[parseInt(b) - 1] + parseInt(c) + (d || '')
+  })
+  finalDNA[gene] = name
+}
 
+(new fspath('data/finalDNA.json')).write(JSON.stringify(finalDNA, null, 2))
