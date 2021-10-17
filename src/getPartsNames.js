@@ -72,7 +72,7 @@ for (let gene in originalDNA) {
   let name = originalDNA[gene]
   gene = gene.replace(/L0(\d{1})E(\d+)([a-z]*)/, function (a, b, c, d) {
     // console.log(a, b,c,d)
-    return genes[parseInt(b) - 1] + parseInt(c) + (d || '')
+    return genes[parseInt(b) - 1] + parseInt(c) + (d || '').toUpperCase()
   })
   finalDNA[gene] = name
 }
