@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"csv-parse": "^4.16.3",
+		"fspath": "^0.15.0"
+	}
+}

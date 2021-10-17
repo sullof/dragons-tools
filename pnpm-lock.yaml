@@ -1,0 +1,20 @@
+lockfileVersion: 5.3
+
+specifiers:
+  csv-parse: ^4.16.3
+  fspath: ^0.15.0
+
+dependencies:
+  csv-parse: 4.16.3
+  fspath: 0.15.0
+
+packages:
+
+  /csv-parse/4.16.3:
+    resolution: {integrity: sha512-cO1I/zmz4w2dcKHVvpCr7JVRu8/FymG5OEpmvsZYlccYolPBLoVGKUHgNoc4ZGkFeFlWGEDmMyBM+TTqRdW/wg==}
+    dev: false
+
+  /fspath/0.15.0:
+    resolution: {integrity: sha1-xq8giXlXN/yRI6eRENDo5JBjBtA=}
+    engines: {node: '>=4'}
+    dev: false
