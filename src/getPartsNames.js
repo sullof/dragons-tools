@@ -13,7 +13,7 @@ let dir = new fspath('data/parts-names.csv')
 const data = parse(dir.read())
 
 let genes = data[0].slice(1).map(e => {
-  if (e === 'Horns') return 'A'
+  if (e === 'Horns') return 'C'
   else return e.substring(0,1)
 })
 
@@ -44,9 +44,6 @@ for (let i=1;i<specials.length; i++) {
   let d = specials[i]
   originalDNA[d[1]+ 'b'] = capitalize(d[0])
 }
-
-
-
 
 // console.log('Looking for duplicates')
 //

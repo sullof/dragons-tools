@@ -1,6 +1,10 @@
 {
 	"dependencies": {
+		"case": "^1.6.3",
 		"csv-parse": "^4.16.3",
-		"fspath": "^0.15.0"
+		"d3-node": "^2.2.3",
+		"fs-extra": "^10.0.0",
+		"fspath": "^0.15.0",
+		"jsdom": "^18.0.0"
 	}
 }
