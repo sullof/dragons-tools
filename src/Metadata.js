@@ -255,7 +255,7 @@ async function getMetadataJSON(data, missingParts, exportPng) {
       missingNames[part] = Object.keys(missingNames[part])
     }
     let output = new fspath('data/missingPartNames.json')
-    output.write(JSON.stringify(missingNames))
+    output.write(JSON.stringify(missingNames, null, 2))
   }
 
   return metadata
@@ -328,20 +328,7 @@ async function getHeadMetadataJSON(data, exportPng) {
   }
 
   if (exportPng) {
-    // try {
-    //   await extractAvatar(data.TokenId)
-    // } catch (e) {
-    //   console.log('Error:', data.TokenId)
-    // }
-    // let id = parseInt(data.TokenId) - 1
-    // if (capitalize(data.Names) === 'Vvsh') {
-      // let svgName = '0'.repeat(5 - id.toString().length) + id + '.svg'
-      // const input = path.resolve(__dirname, '../images/originalHeadSVGs/' + svgName)
-      // let dir = path.resolve(__dirname, '../images/originalHeadSVGs/')
-      // await renameSvg(data.TokenId, capitalize(data.Names), dir)
-      // await dragonsTools.extractHead(input, path.resolve(__dirname, '../images/nameTransparentHeadPNGs/' + capitalize(data.Names) + '.png'))
-      await generateHeadPngWithAura(data)
-    // }
+    await generateHeadPngWithAura(data)
   }
   return metadata
 }
