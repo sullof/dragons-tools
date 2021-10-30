@@ -1,55 +1,41 @@
 Value,File-name
-Golden original wings,L01E001
-Golden feathers wings,L01E002
-Damaged panel wings,L01E004
-Dumbo wings,L01E007
-Damaged ribs wings,L01E008
-Gold spike kite wings,L01E012
-Damaged knife wings,L01E015
-Damaged curtain wings,L01E017
-Golden dawn wings,L01E020
-Golden axe wings,L01E024
-Rainbow backbone tail,L02E004
-Golden spiked tail,L02E012
-Flame lionfish tail,L02E021
-Hammer twist tail,L02E022
-Gold ribbon armor,L03E004
-Gold spike armor,L03E012
-Rainbow armor,L03E022
-Golden claws legs,L04E002
-Gold & opals bracelets,L04E007
-Golden spiked legs,L04E012
-Killer dusk legs,L04E016
-Extra stars legs,L04E019
-Rainbow flame legs,L04E022
-Gold boots,L04E024
-Gold heart necklace ,L05E004
-Black painted war head,L05E005
-Gold guard grin head,L05E007
-Whiskers bearded head,L05E008
-Gold nose piercing,L05E014
-Rainbow teeth fangs head,L05E019
-Gold ring necklace,L05E020
-YinYang necklace,L05E021
-Gold tooth shell head,L05E022
-Gold spikes head,L05E024
-Gold cusps,L06E006
-Gold rings & stars earrings,L06E007
-Gold tubes,L06E011
-Gold spiked horns,L06E012
-Broken nipper horns,L06E015
-Tricolor triceratops horns,L06E017
-Uneven harpoon horn,L06E018
-Uneven antennas horn,L06E019
-Horn gold & silver piercings,L06E021
-Rainbow crown horns,L06E023
-Broken loki horns,L06E024
-Rimmed ninja eyes,L07E002
-Bicolor flame eyes,L07E004
-Triple eyebrows,L07E005
-Antenna robot eyes,L07E006
-Golded spiked eyes,L07E012
-Golden abyssal eyes,L07E014
-Ultralong bored eyes,L07E018
-Bold marshmellow eyes,L07E020
-Eye gold & silver piercings,L07E023
+Golden original,W1B
+Golden feathers,W2B
+Damaged panel,W4B
+Dumbo,W7B
+Damaged ribs,W8B
+Gold spike kite,W12B
+Damaged knife,W15B
+Damaged curtain,W17B
+Golden dawn,W20B
+Golden axe,W24B
+Rainbow backbone,T4B
+Golden spiked,T12B
+Flame lionfish,T21B
+Hammer twist tail,T22B
+Gold ribbon,B4B
+Golden claws,L2B
+Golden spiked,L12B
+Killer dusk,L16B
+Extra stars,L19B
+Rainbow flame,L22B
+Black painted war,H5B
+Gold guard grin,H7B
+Whiskers bearded,H8B
+Rainbow teeth fangs,H19B
+Gold tooth shell,H22B
+Gold spikes,H24B
+Gold spiked,C12B
+Broken nipper,C15B
+Tricolor triceratops,C17B
+Uneven harpoon,C18B
+Uneven antennas,C19B
+Rainbow crown,C23B
+Broken loki,C24B
+Rimmed ninja,E2B
+Bicolor flame,E4B
+Antenna robot,E6B
+Golded spiked,E12B
+Golden abyssal,E14B
+Ultralong bored,E18B
+Bold marshmellow,E20B

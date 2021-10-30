@@ -3,29 +3,29 @@ const fspath = require('fspath')
 // we do not want to re-execute this by mistake
 process.exit(0)
 
-const backgrounds = require('../data/backgrounds.json')
+const auras = require('../data/aurasStats.json')
 
 let redundant = []
-for (let background in backgrounds) {
-  let repetition = backgrounds[background]
+for (let aura in auras) {
+  let repetition = auras[aura]
   for (let i=0;i<repetition;i++) {
-    redundant.push(background)
+    redundant.push(aura)
   }
 }
 
-const auras = []
+const finalAuras = []
 
 for (let i=1;i< 10001;i++) {
   let index = Math.round(redundant.length * Math.random())
   if (index === redundant.length) index--
-  auras.push(redundant[index])
+  finalAuras.push(redundant[index] !== 'none' ? redundant[index] : '')
 }
 
-let output = new fspath('data/auras.json')
-output.write(JSON.stringify(auras, null, 2))
+let output = new fspath('data/aura10k.json')
+output.write(JSON.stringify(finalAuras, null, 2))
 
 let distribution = {}
-for (let a of auras) {
+for (let a of finalAuras) {
   distribution[a] = (distribution[a] || 0) + 1
 }
 

@@ -1,17 +1,10 @@
 {
-  "yellowGreen": 1954,
-  "turquoise": 790,
-  "eveningSky": 1248,
-  "paleLimeGreen": 302,
-  "blueAndGreen": 1139,
-  "yellowNuances": 1408,
-  "agua": 934,
-  "snowViolet": 653,
-  "yellowNaples": 444,
-  "greenGrey": 497,
-  "blueViolet": 306,
-  "pinkAndYellow": 180,
-  "valerianGrey": 43,
-  "rosePink": 88,
-  "halfRainbow": 14
+  "circle": 4176,
+  "smallCircle": 2778,
+  "catEye": 847,
+  "largeCircle": 1818,
+  "cross": 268,
+  "rhombus": 51,
+  "": 46,
+  "octal": 16
 }
