@@ -1,8 +1,8 @@
 {
-  "circle": 4176,
-  "smallCircle": 2778,
-  "catEye": 847,
-  "largeCircle": 1818,
+  "innerCircle": 4176,
+  "smallPupil": 2778,
+  "catPupil": 847,
+  "iris": 1818,
   "cross": 268,
   "rhombus": 51,
   "": 46,

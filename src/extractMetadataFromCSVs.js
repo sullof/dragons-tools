@@ -34,34 +34,68 @@ for (let id of wTData) {
 let result = []
 let resultHead = []
 
+const cubs = [
+  'Aqua',
+  'Aria',
+  'Fuoco',
+  'Terra'
+]
+
+const preMinted = [
+  // team
+  'Baayojee',
+  'Soolhoth',
+  // specials
+  'Arcobalen',
+  'Aqua',
+  'Aria',
+  'Fuoco',
+  'Terra',
+  // agdaroth
+  'Agdaroth'
+]
+
+function sortMetadata(metadata) {
+  metadata.sort((a,b) => {
+    let A = a.name
+    let B = b.name
+    A = ~preMinted.indexOf(A) ? 'Zzzzzzzzzz' : A
+    B = ~preMinted.indexOf(B) ? 'Zzzzzzzzzz' : B
+    return A > B ? 1 : A < B ? -1 : 0
+  })
+  return metadata
+}
+
+
 async function main() {
   for (let i = 0; i < data.length; i++) {
+
+    let exportPng = false
+
     data[i].Aura = auras[i]
     data[i].BgFile = backgrounds[i]
     data[i].Bg = backgroundsNewNames[backgrounds[i]]
-    // if (data[i].TokenId != 2641) {
-    //   continue
-    // }
-    // if (data[i].Aura !== 'octal') {
-    //   continue
-    // }
-    // console.log(data[i].Names, data[i].Aura)
+
+    // exportPng = i > 123 && i < 134
+    // if (exportPng) console.log(data[i].Names, data[i].Aura)
+
     let metadata = await getMetadataJSON(
         data[i],
         missingParts,
-        // i > 123 && i < 134
-        // true // < to avoid slowly re-generating images
+        exportPng
     )
     // if (i === 134) process.exit()
     result.push(metadata)
     let metadataHead = await getHeadMetadataJSON(
         data[i],
-        // i > 123 && i < 134 // true
+        exportPng
     )
     resultHead.push(metadataHead)
   }
+  result = sortMetadata(result)
   let output = new fspath('data/allMetadataV2.json')
   output.write(JSON.stringify(result, null, 2))
+  resultHead = sortMetadata(resultHead)
   output = new fspath('data/allMetadataHeadV2.json')
   output.write(JSON.stringify(resultHead, null, 2))
 }
