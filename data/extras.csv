@@ -3,7 +3,8 @@ Armor,Gold ribbon,B4B
 Armor,Gold spike,B12B
 Armor,Rainbow,B22B
 Bracelets,Gold and opal,L7B
-Boots,Gold,L24B
+Footwear,Gold boots,L24B
+Footwear,Sneakers,L1H
 Necklace,Gold heart,H4B
 Piercing,Gold nose,H14B
 Necklace,Gold ring,H20B
@@ -13,3 +14,5 @@ Hornlets,Gold ring & star earrings,C7B
 Hornlets,Gold cuffs,C11B
 Piercing,Gold and silver horn,C21B
 Piercing,Gold and silver eye,E23B
+Hoodie,Forest,B9H
+Glasses,Sunglasses,E5H
