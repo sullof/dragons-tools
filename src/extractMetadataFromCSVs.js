@@ -77,14 +77,14 @@ async function main() {
     data[i].BgFile = backgrounds[i]
     data[i].Bg = backgroundsNewNames[backgrounds[i]]
 
-    exportPng = ~alteredIds.indexOf(data[i].TokenId)
+    // exportPng = ~alteredIds.indexOf(data[i].TokenId)
     // exportPng = i > 123 && i < 134
     // if (exportPng) console.log(data[i].Names, data[i].Aura)
 
     let metadata = await getMetadataJSON(
         data[i],
         missingParts,
-        // exportPng
+        exportPng
     )
     // if (i === 134) process.exit()
     result.push(metadata)
