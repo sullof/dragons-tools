@@ -1,4 +1,17 @@
 {
+	"name": "dragons-tools",
+	"description": "A few tools to manipulate files and images for NFTs",
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": {
+	},
+	"authors": [
+		"Francesco Sullo <francesco@sullo.co> (https://francesco.sullo.co)"
+	],
+	"contributors": [],
+	"engines": {
+		"node": ">=14.0.0"
+	},
 	"dependencies": {
 		"case": "^1.6.3",
 		"csv-parse": "^4.16.3",
