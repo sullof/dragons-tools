@@ -28,24 +28,6 @@ let extras = parse(input.read(), {
   columns: header => header.map(column => capitalize(column))
 })
 
-const example = {
-  TokenId: '100',
-  Wings: '1',
-  Tail: '1',
-  Body: '1',
-  Legs: '14',
-  Head: '1',
-  Horns: '13',
-  Eyes: '13',
-  Domain: '2',
-  Color: '7',
-  Replceable: '1',
-  Replaced: '',
-  Names: 'Thranguir',
-  Generation: '3',
-  Aura: 'halfRainbow'
-}
-
 let elements = [
   'Fire',
   'Water',
@@ -76,10 +58,10 @@ function getName(part, value) {
     missingNames[part][value.substring(1).toLowerCase()] = 1
     return 'NOT DEFINED'
   }
-  let all = partName.split(part)
-  if (all[0] !== partName) {
-    return partName.replace(/ \w+$/, '')
-  }
+  // let all = partName.split(part)
+  // if (all[0] !== partName) {
+  //   return partName.replace(/ \w+$/, '')
+  // }
   return partName
 }
 
@@ -99,6 +81,7 @@ async function renameSvg(id, name, dir, outdir = 'nameSVGs') {
   let svgName = '0'.repeat(5 - id.toString().length) + id + '.svg'
   let inputPath = path.join(dir, svgName)
   if (fs.existsSync(inputPath)) {
+    console.log(inputPath, path.resolve(__dirname, '../images/' + outdir + '/' + name + '.svg'))
     await fs.copy(inputPath, path.resolve(__dirname, '../images/' + outdir + '/' + name + '.svg'))
   } else {
     console.log(inputPath + ' not found')
@@ -142,13 +125,14 @@ async function removeMissingParts(id, missing) {
   return fs.writeFile(path.resolve(__dirname, '../tmp/' + svgName), svg)
 }
 
-async function extractAvatar(id) {
+async function extractAvatar(id, name) {
   id = parseInt(id) - 1
   let svgName = '0'.repeat(5 - id.toString().length) + id + '.svg'
   let svg = await fs.readFile(path.resolve(__dirname, '../images/originalSVGs/' + svgName), 'utf8')
   svg = dragonsTools.leaveHeadOnly(svg)
   const input = path.resolve(__dirname, '../images/originalHeadSVGs/' + svgName)
   await fs.writeFile(input, svg)
+  await dragonsTools.extractHead(input, path.resolve(__dirname, '../images/nameTransparentHeadPNGs/' + name + '.png'))
 }
 
 async function getMetadataJSON(data, missingParts, exportPng) {
@@ -173,7 +157,7 @@ async function getMetadataJSON(data, missingParts, exportPng) {
       },
       {
         trait_type: 'Color Palette',
-        value: elem.substring(0, 1).toUpperCase() + data.Color
+        value: elem + ' #' + data.Color
       },
       {
         trait_type: 'Generation',
@@ -209,6 +193,7 @@ async function getMetadataJSON(data, missingParts, exportPng) {
     if (data[part]) {
       let extra = isASpecial(fullValue)
       if (extra) {
+        // console.log(fullValue)
         metadata.attributes.push({
           trait_type: extra.Type,
           value: `${fullValue} ${getName(part, fullValue)}`
@@ -250,7 +235,7 @@ async function getMetadataJSON(data, missingParts, exportPng) {
   }
 
   // at the end, we save the report
-  if (parseInt(data.TokenId) === 10001 && Object.keys(missingNames).length) {
+  if (parseInt(data.TokenId) === 10001) {
     for (let part in missingNames) {
       missingNames[part] = Object.keys(missingNames[part])
     }
@@ -283,7 +268,7 @@ async function getHeadMetadataJSON(data, exportPng) {
       },
       {
         trait_type: 'Color Palette',
-        value: elem.substring(0, 1).toUpperCase() + data.Color
+        value: elem + ' #' + data.Color
       },
       {
         trait_type: 'Generation',
@@ -328,6 +313,8 @@ async function getHeadMetadataJSON(data, exportPng) {
   }
 
   if (exportPng) {
+    // console.log(data.Names)
+    await extractAvatar(data.TokenId, data.Names)
     await generateHeadPngWithAura(data)
   }
   return metadata

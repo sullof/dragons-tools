@@ -1,6 +1,6 @@
 type,name,extra
-Armor,Gold ribbon,B4B
-Armor,Gold spike,B12B
+Armor,Gold,B4B
+Armor,Gold,B12B
 Armor,Rainbow,B22B
 Bracelets,Gold and opal,L7B
 Footwear,Gold boots,L24B
@@ -12,7 +12,7 @@ Necklace,YinYang,H21B
 Hornlets,Gold cusps,C6B
 Hornlets,Gold ring & star earrings,C7B
 Hornlets,Gold cuffs,C11B
-Piercing,Gold and silver horn,C21B
-Piercing,Gold and silver eye,E23B
+Piercing,Gold and silver,C21B
+Piercing,Gold and silver,E23B
 Hoodie,Forest,B9H
-Glasses,Sunglasses,E5H
+Sunglasses,Exciting 80s,E5H

@@ -57,7 +57,8 @@ const fs = require('fs')
 const dragonsTools = {
 
   async pngOverBackground(svg, bg, output, aura) {
-    if (fs.existsSync(svg) && fs.existsSync(bg) && (!aura || fs.existsSync(aura))) {
+    let exists = [fs.existsSync(svg), fs.existsSync(bg), !aura || fs.existsSync(aura)]
+    if (exists[0] && exists[1] && exists[2]) {
       let img = await sharp(svg, {density: 216}).png().toBuffer()
       if (aura) {
         img = await sharp(aura, {density: 216})
@@ -68,7 +69,7 @@ const dragonsTools = {
           .composite([{input: img}])
           .toFile(output)
     } else {
-      console.log('File missing', '\n', svg, '\n', bg, '\n', aura)
+      console.log('File missing', exists, '\n', svg, '\n', bg, '\n', aura)
     }
   },
 

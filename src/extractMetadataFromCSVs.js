@@ -11,6 +11,7 @@ function capitalize(str) {
 const backgrounds = require('../data/background10k.json')
 const backgroundsNewNames = require('../data/backgroundsNewNames.json')
 const auras = require('../data/aura10k.json')
+const alteredIds = require('../data/alteredIds.json')
 
 // this is supposed to be launched from the root
 let input = new fspath('data/ED210kDNAs.csv')
@@ -76,13 +77,14 @@ async function main() {
     data[i].BgFile = backgrounds[i]
     data[i].Bg = backgroundsNewNames[backgrounds[i]]
 
+    exportPng = ~alteredIds.indexOf(data[i].TokenId)
     // exportPng = i > 123 && i < 134
     // if (exportPng) console.log(data[i].Names, data[i].Aura)
 
     let metadata = await getMetadataJSON(
         data[i],
         missingParts,
-        exportPng
+        // exportPng
     )
     // if (i === 134) process.exit()
     result.push(metadata)
@@ -92,6 +94,10 @@ async function main() {
     )
     resultHead.push(metadataHead)
   }
+
+  // console.log(JSON.stringify(result, null, 2))
+  // return
+
   result = sortMetadata(result)
   let output = new fspath('data/allMetadataV2.json')
   output.write(JSON.stringify(result, null, 2))
