@@ -81,7 +81,7 @@ async function renameSvg(id, name, dir, outdir = 'nameSVGs') {
   let svgName = '0'.repeat(5 - id.toString().length) + id + '.svg'
   let inputPath = path.join(dir, svgName)
   if (fs.existsSync(inputPath)) {
-    console.log(inputPath, path.resolve(__dirname, '../images/' + outdir + '/' + name + '.svg'))
+    // console.log(inputPath, path.resolve(__dirname, '../images/' + outdir + '/' + name + '.svg'))
     await fs.copy(inputPath, path.resolve(__dirname, '../images/' + outdir + '/' + name + '.svg'))
   } else {
     console.log(inputPath + ' not found')
@@ -260,7 +260,7 @@ async function getHeadMetadataJSON(data, exportPng) {
     attributes: [
       {
         trait_type: 'Sky',
-        value: splitWords(capitalize(data.Bg))
+        value: data.Bg
       },
       {
         trait_type: 'Element',
