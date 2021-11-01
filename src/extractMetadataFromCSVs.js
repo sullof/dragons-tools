@@ -46,6 +46,8 @@ const preMinted = [
   // team
   'Baayojee',
   'Soolhoth',
+  'Devideth',
+  'Emhanuel',
   // specials
   'Arcobalen',
   'Aqua',
@@ -56,23 +58,20 @@ const preMinted = [
   'Agdaroth'
 ]
 
-function sortMetadata(metadata) {
-  metadata.sort((a,b) => {
-    let A = a.name
-    let B = b.name
-    A = ~preMinted.indexOf(A) ? 'Zzzzzzzzzz' : A
-    B = ~preMinted.indexOf(B) ? 'Zzzzzzzzzz' : B
-    return A > B ? 1 : A < B ? -1 : 0
-  })
-  return metadata
+function sortAllNames(a, b) {
+  a = ~preMinted.indexOf(a) ? 'Zzzzzzzzzz' : a
+  b = ~preMinted.indexOf(b) ? 'Zzzzzzzzzz' : b
+  return a > b ? 1 : a < b ? -1 : 0
 }
 
+const allNames = []
 
 async function main() {
   for (let i = 0; i < data.length; i++) {
 
     let exportPng = false
 
+    allNames.push(data[i].Names)
     data[i].Aura = auras[i]
     data[i].BgFile = backgrounds[i]
     data[i].Bg = backgroundsNewNames[backgrounds[i]]
@@ -98,12 +97,16 @@ async function main() {
   // console.log(JSON.stringify(result, null, 2))
   // return
 
-  result = sortMetadata(result)
+  // result = sortMetadata(result)
   let output = new fspath('data/allMetadataV2.json')
   output.write(JSON.stringify(result, null, 2))
-  resultHead = sortMetadata(resultHead)
+  // resultHead = sortMetadata(resultHead)
   output = new fspath('data/allMetadataHeadV2.json')
   output.write(JSON.stringify(resultHead, null, 2))
+
+  output = new fspath('data/allNames.json')
+  output.write(JSON.stringify(allNames.sort(sortAllNames), null, 2))
+
 }
 
 main()

@@ -142,8 +142,8 @@ async function getMetadataJSON(data, missingParts, exportPng) {
 
   const metadata = {
     description: `EverDragons2 is a new generation of the EverDragons NFT, a collection born in 2018 on Ethereum, and soon become the first cross-chain NFT ever, being deployed to POA Network and Tron.`,
-    external_url: `https://everdragons2.com/nft/ed2/${Case.camel(data.Names)}`,
-    image: `https://everdragons2.com/png/ed2/${Case.camel(data.Names)}.png`,
+    external_url: `https://everdragons2.com/ED2/${Case.camel(data.Names)}`,
+    image: `https://img.everdragons2.com/ED2/${Case.camel(data.Names)}.png`,
     name: data.Names,
     // colorPalette: colors2[elem.substring(0,1).toUpperCase()+ data.Color],
     attributes: [
@@ -253,8 +253,8 @@ async function getHeadMetadataJSON(data, exportPng) {
 
   const metadata = {
     description: `EverDragons2 Avatars is a collection of 10001 dragons' head, extracted from the EverDragons2 NFT collection.`,
-    external_url: `https://everdragons2.com/nft/ed2a/${Case.camel(data.Names)}`,
-    image: `https://everdragons2.com/png/ed2a/${Case.camel(data.Names)}.png`,
+    external_url: `https://everdragons2.com/ED2H/${Case.camel(data.Names)}`,
+    image: `https://img.everdragons2.com/ED2H/${Case.camel(data.Names)}.png`,
     name: data.Names,
     // colorPalette: colors2[elem.substring(0,1).toUpperCase()+ data.Color],
     attributes: [
