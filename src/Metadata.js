@@ -81,7 +81,7 @@ async function renameSvg(id, name, dir, outdir = 'nameSVGs') {
   let svgName = '0'.repeat(5 - id.toString().length) + id + '.svg'
   let inputPath = path.join(dir, svgName)
   if (fs.existsSync(inputPath)) {
-    console.log(inputPath, path.resolve(__dirname, '../images/' + outdir + '/' + name + '.svg'))
+    // console.log(inputPath, path.resolve(__dirname, '../images/' + outdir + '/' + name + '.svg'))
     await fs.copy(inputPath, path.resolve(__dirname, '../images/' + outdir + '/' + name + '.svg'))
   } else {
     console.log(inputPath + ' not found')
@@ -143,7 +143,7 @@ async function getMetadataJSON(data, missingParts, exportPng) {
   const metadata = {
     description: `EverDragons2 is a new generation of the EverDragons NFT, a collection born in 2018 on Ethereum, and soon become the first cross-chain NFT ever, being deployed to POA Network and Tron.`,
     external_url: `https://everdragons2.com/nft/ed2/${Case.camel(data.Names)}`,
-    image: `https://everdragons2.com/png/ed2/${Case.camel(data.Names)}.png`,
+    image: `https://img.everdragons2.com/ed2/${Case.camel(data.Names)}.png`,
     name: data.Names,
     // colorPalette: colors2[elem.substring(0,1).toUpperCase()+ data.Color],
     attributes: [
@@ -254,13 +254,13 @@ async function getHeadMetadataJSON(data, exportPng) {
   const metadata = {
     description: `EverDragons2 Avatars is a collection of 10001 dragons' head, extracted from the EverDragons2 NFT collection.`,
     external_url: `https://everdragons2.com/nft/ed2a/${Case.camel(data.Names)}`,
-    image: `https://everdragons2.com/png/ed2a/${Case.camel(data.Names)}.png`,
+    image: `https://img.everdragons2.com/ed2a/${Case.camel(data.Names)}.png`,
     name: data.Names,
     // colorPalette: colors2[elem.substring(0,1).toUpperCase()+ data.Color],
     attributes: [
       {
         trait_type: 'Sky',
-        value: splitWords(capitalize(data.Bg))
+        value: data.Bg
       },
       {
         trait_type: 'Element',

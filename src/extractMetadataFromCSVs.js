@@ -12,6 +12,7 @@ const backgrounds = require('../data/background10k.json')
 const backgroundsNewNames = require('../data/backgroundsNewNames.json')
 const auras = require('../data/aura10k.json')
 const alteredIds = require('../data/alteredIds.json')
+const preMinted = require('../data/preMinted')
 
 // this is supposed to be launched from the root
 let input = new fspath('data/ED210kDNAs.csv')
@@ -42,41 +43,22 @@ const cubs = [
   'Terra'
 ]
 
-const preMinted = [
-  // team
-  'Baayojee',
-  'Soolhoth',
-  // specials
-  'Arcobalen',
-  'Aqua',
-  'Aria',
-  'Fuoco',
-  'Terra',
-  // agdaroth
-  'Agdaroth'
-]
-
-function sortMetadata(metadata) {
-  metadata.sort((a,b) => {
-    let A = a.name
-    let B = b.name
-    A = ~preMinted.indexOf(A) ? 'Zzzzzzzzzz' : A
-    B = ~preMinted.indexOf(B) ? 'Zzzzzzzzzz' : B
-    return A > B ? 1 : A < B ? -1 : 0
-  })
-  return metadata
-}
-
+const allNamesExceptPreminted = []
 
 async function main() {
   for (let i = 0; i < data.length; i++) {
 
     let exportPng = false
+    let name = data[i].Names
+    if (!~preMinted.indexOf(name)) {
+      allNamesExceptPreminted.push(name)
+    }
 
     data[i].Aura = auras[i]
     data[i].BgFile = backgrounds[i]
     data[i].Bg = backgroundsNewNames[backgrounds[i]]
 
+    // exportPng = name === 'Rodeford'
     // exportPng = ~alteredIds.indexOf(data[i].TokenId)
     // exportPng = i > 123 && i < 134
     // if (exportPng) console.log(data[i].Names, data[i].Aura)
@@ -98,12 +80,15 @@ async function main() {
   // console.log(JSON.stringify(result, null, 2))
   // return
 
-  result = sortMetadata(result)
+  // result = sortMetadata(result)
   let output = new fspath('data/allMetadataV2.json')
   output.write(JSON.stringify(result, null, 2))
-  resultHead = sortMetadata(resultHead)
+  // resultHead = sortMetadata(resultHead)
   output = new fspath('data/allMetadataHeadV2.json')
   output.write(JSON.stringify(resultHead, null, 2))
+
+  output = new fspath('data/allNamesExceptPreminted.json')
+  output.write(JSON.stringify(allNamesExceptPreminted.sort(), null, 2))
 }
 
 main()

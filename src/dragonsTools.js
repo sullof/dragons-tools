@@ -59,7 +59,8 @@ const dragonsTools = {
   async pngOverBackground(svg, bg, output, aura) {
     let exists = [fs.existsSync(svg), fs.existsSync(bg), !aura || fs.existsSync(aura)]
     if (exists[0] && exists[1] && exists[2]) {
-      let img = await sharp(svg, {density: 216}).png().toBuffer()
+      let img = await sharp(svg, {density: 216})
+          .png().toBuffer()
       if (aura) {
         img = await sharp(aura, {density: 216})
             .composite([{input: img}])
