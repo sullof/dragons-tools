@@ -11,6 +11,7 @@ function capitalize(str) {
 const backgrounds = require('../data/background10k.json')
 const backgroundsNewNames = require('../data/backgroundsNewNames.json')
 const auras = require('../data/aura10k.json')
+const powerValues = require('../data/value10k.json')
 const alteredIds = require('../data/alteredIds.json')
 const preMinted = require('../data/preMinted')
 
@@ -57,6 +58,7 @@ async function main() {
     data[i].Aura = auras[i]
     data[i].BgFile = backgrounds[i]
     data[i].Bg = backgroundsNewNames[backgrounds[i]]
+    data[i].Powers = powerValues[i]
 
     // exportPng = name === 'Rodeford'
     // exportPng = ~alteredIds.indexOf(data[i].TokenId)

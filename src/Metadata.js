@@ -157,7 +157,7 @@ async function getMetadataJSON(data, missingParts, exportPng) {
       },
       {
         trait_type: 'Color Palette',
-        value: elem + ' #' + data.Color
+        value: elem.substring(0,1) + data.Color
       },
       {
         trait_type: 'Generation',
@@ -212,6 +212,13 @@ async function getMetadataJSON(data, missingParts, exportPng) {
     }
   }
 
+  for (let k=0;k<powers.length;k++) {
+    metadata.attributes.push({
+      trait_type: powers[k],
+      value: parseInt((data.Powers||[])[k] || '5')
+    })
+  }
+
   let purityIndex = 0
   for (let p in purity) {
     purityIndex = Math.max(purityIndex, purity[p])
@@ -246,6 +253,14 @@ async function getMetadataJSON(data, missingParts, exportPng) {
   return metadata
 }
 
+let powers = [
+  'Strength',
+  'Dexterity',
+  'Intelligence',
+  'Focus',
+  'Constitution'
+]
+
 async function getHeadMetadataJSON(data, exportPng) {
 
   let tId = parseInt(data.TokenId)
@@ -268,7 +283,7 @@ async function getHeadMetadataJSON(data, exportPng) {
       },
       {
         trait_type: 'Color Palette',
-        value: elem + ' #' + data.Color
+        value: elem.substring(0,1) + data.Color
       },
       {
         trait_type: 'Generation',
