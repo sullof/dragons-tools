@@ -1,7 +1,7 @@
 const fspath = require('fspath')
 
 // we do not want to re-execute this by mistake
-process.exit(0)
+// process.exit(0)
 
 const values = require('../data/valuesStats.json')
 
