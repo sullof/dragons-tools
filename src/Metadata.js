@@ -141,15 +141,17 @@ async function getMetadataJSON(data, missingParts, exportPng) {
   let elem = elements[parseInt(data.Domain)]
 
   const metadata = {
-    description: `EverDragons2 is a new generation of the EverDragons NFT, a collection born in 2018 on Ethereum, and soon become the first cross-chain NFT ever, being deployed to POA Network and Tron.`,
+    description: `Everdragons2 is a collection of 10,001 dragons randomly generated from hundreds of assets. They inherit the legacy of Everdragons, minted in 2018 as the first bridgeable cross-chain non-fungible token (NFT)  for gaming. In the marvelous upcoming Origins, the play-to-earn game of the Everdragons Metaverse, holders of Everdragons2 will get a Loot Box containing Obsidian (the Origins token), Settlement Plans, and Genesis Units based on rarity.`,
     external_url: `https://everdragons2.com/nft/ed2/${data.Names}`,
     image: `https://img.everdragons2.com/ed2/${data.Names}.png`,
     name: data.Names,
+    // allTraitsTypes: ['Sky', 'Element', 'Color Palette', 'Generation', 'Purity Index', 'Aura', 'Wings', 'Tail', 'Body', 'Legs', 'Head', 'Horns', 'Eyes', 'Hoodie', 'Footwear', 'Sunglasses', 'Armor', 'Hornlets', 'Necklace', 'Piercing', 'Bracelets', 'Baby'],
+    // firstMutableTrait: 21,
     // colorPalette: colors2[elem.substring(0,1).toUpperCase()+ data.Color],
     attributes: [
       {
         trait_type: 'Sky',
-        value: splitWords(capitalize(data.Bg))
+        value: data.Bg
       },
       {
         trait_type: 'Element',
@@ -157,7 +159,7 @@ async function getMetadataJSON(data, missingParts, exportPng) {
       },
       {
         trait_type: 'Color Palette',
-        value: elem.substring(0,1) + data.Color
+        value: elem.substring(0, 1) + data.Color
       },
       {
         trait_type: 'Generation',
@@ -166,34 +168,50 @@ async function getMetadataJSON(data, missingParts, exportPng) {
     ]
   }
 
-  if (data.Aura) {
+  if (~['Fuoco', 'Aria', 'Aqua', 'Terra'].indexOf(data.Names)) {
     metadata.attributes.push({
-      trait_type: 'Aura',
-      value: splitWords(capitalize(data.Aura))
+      trait_type: 'Baby',
+      value: true
     })
   }
+
+  // for (let k = 0; k < powers.length; k++) {
+  //   metadata.attributes.push({
+  //     trait_type: powers[k],
+  //     value: parseInt((data.Powers || [])[k] || '5')
+  //   })
+  // }
+
+  metadata.attributes.push({
+    trait_type: 'Aura',
+    value: data.Aura ? splitWords(capitalize(data.Aura)) : 'none'
+  })
 
   let parts = 'Wings,Tail,Body,Legs,Head,Horns,Eyes'.split(',')
   let initials = 'W,T,B,L,H,C,E'.split(',')
 
-  let purity = {}
-
   let missing = missingParts[data.TokenId] || {}
+  let purity = {}
 
   for (let i = 0; i < parts.length; i++) {
     let part = parts[i]
-    if (!part || (i === 0 && missing.W) || (i === 1 && missing.T)) {
-      // missing a part
-      continue
+    if (!part) {
+      console.log('Missing part')
     }
-    let value = parseInt(data[part].replace(/[a-zA-Z]+/g, ''))
-    let fullValue = initials[i] + data[part].toUpperCase()
+    let value
+    let fullValue
+    if ((i === 0 && missing.W) || (i === 1 && missing.T)) {
+      value = 'none'
+      fullvalue = value
+      // console.log(data.Names)
+    } else {
+      value = parseInt(data[part].replace(/[a-zA-Z]+/g, ''))
+      fullValue = initials[i] + data[part].toUpperCase()
+    }
     purity[value.toString()] = (purity[value.toString()] || 0) + 1
-
     if (data[part]) {
       let extra = isASpecial(fullValue)
       if (extra) {
-        // console.log(fullValue)
         metadata.attributes.push({
           trait_type: extra.Type,
           value: `${fullValue} ${getName(part, fullValue)}`
@@ -206,17 +224,10 @@ async function getMetadataJSON(data, missingParts, exportPng) {
       } else {
         metadata.attributes.push({
           trait_type: part,
-          value: `${fullValue} ${getName(part, fullValue)}`
+          value: fullValue ? `${fullValue} ${getName(part, fullValue)}` : 'none'
         })
       }
     }
-  }
-
-  for (let k=0;k<powers.length;k++) {
-    metadata.attributes.push({
-      trait_type: powers[k],
-      value: parseInt((data.Powers||[])[k] || '5')
-    })
   }
 
   let purityIndex = 0
@@ -228,6 +239,8 @@ async function getMetadataJSON(data, missingParts, exportPng) {
     trait_type: 'Purity Index',
     value: purityIndex
   })
+
+
   if (exportPng) {
     if (missing.W || missing.T) {
       await removeMissingParts(data.TokenId, missing)
@@ -267,7 +280,7 @@ async function getHeadMetadataJSON(data, exportPng) {
   let elem = elements[parseInt(data.Domain)]
 
   const metadata = {
-    description: `EverDragons2 Avatars is a collection of 10001 dragons' head, extracted from the EverDragons2 NFT collection.`,
+    description: `Everdragons2 Avatars is a collection of 10,001 dragons avatars randomly generated from hundreds of assets. They inherit the legacy of Everdragons, minted in 2018 as the first bridgeable cross-chain non-fungible token (NFT)  for gaming. In the marvelous upcoming Origins, the play-to-earn game of the Everdragons Metaverse, holders of Everdragons2 will get a Loot Box containing Obsidian (the Origins token), Settlement Plans, and Genesis Units based on rarity.`,
     external_url: `https://everdragons2.com/nft/ed2a/${data.Names}`,
     image: `https://img.everdragons2.com/ed2a/${data.Names}.png`,
     name: data.Names,
@@ -283,7 +296,7 @@ async function getHeadMetadataJSON(data, exportPng) {
       },
       {
         trait_type: 'Color Palette',
-        value: elem.substring(0,1) + data.Color
+        value: elem.substring(0, 1) + data.Color
       },
       {
         trait_type: 'Generation',

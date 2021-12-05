@@ -1801,7 +1801,7 @@ Corgand
 Dourphoor
 Kelswirak
 Samuhuth
-Sayquikin
+Devideth
 Vertalor
 Queavrom
 Bloeril
@@ -3769,7 +3769,7 @@ Raylniev
 Roththewar
 Cier
 Kelf
-Jialf
+Jormungandr
 Sleuvrom
 Draydalf
 Rayuyoo

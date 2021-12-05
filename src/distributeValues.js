@@ -8,24 +8,24 @@ const values = require('../data/valuesStats.json')
 let redundant = []
 for (let value in values) {
   let repetition = values[value]
-  for (let i=0;i<repetition;i++) {
+  for (let i = 0; i < repetition; i++) {
     redundant.push(value)
   }
 }
 
-let properties = [
-  'Strength',
-  'Dexterity',
-  'Intelligence',
-  'Focus',
-  'Constitution'
-]
+// let properties = [
+//   'Strength',
+//   'Dexterity',
+//   'Intelligence',
+//   'Focus',
+//   'Constitution'
+// ]
 
 const finalvalues = []
 
-for (let i=1;i< 10001;i++) {
+for (let i = 1; i <= 10001; i++) {
   let str = ''
-  for (let k=0;k<5;k++) {
+  for (let k = 0; k < 5; k++) {
     let index = Math.round(redundant.length * Math.random())
     if (index === redundant.length) index--
     str += redundant[index] !== 'none' ? redundant[index] : '5'
