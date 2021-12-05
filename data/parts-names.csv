@@ -1,25 +1,45 @@
-id,Wings,Tail,Body,Legs,Head,Horns,Eyes
-1,original wings,lizard tail,banded body,harpy legs,maleficent head,devil horns,devil eyes
-2,feathers wings,feathers tail,skeleton body,claws legs,raccon head,tree horns,ninja eyes
-3,leaf wings,dusk tail,shell body,shell legs,snake head,slug horns,ant eyes
-4,panel wings,backbone tail,cage body,mercurius legs,smart head,kudu horns,flame eyes
-5,comb wings,flame tail,claws body,ivy legs,war head,dusk horns,eyebrows
-6,lobster wings,armored tail,robot body,robot legs,smuggler head,lobster horns,robot eyes
-7,skull wings,sleepy tail,six pack body,crab legs,grin head,lyre horns,edge eyes
-8,ribs wings,braid tail,dawn body,horned legs,bearded head,mercurius horn,slug eyes
-9,elderly wings,elderly tail,elderly body,elderly legs,elderly head,elderly horns,elderly eyes
-10,blade wings,venetian tail,armored body,armored legs,lizard head,taurus horns,stoned eyes
-11,bat wings,hook tail,winged body,peeled legs,skeleton head,crossed horns,skeleton eyes
-12,kite wings,spiked tail,spiked body,spiked legs,spooky head,spiked horns,spiked eyes
-13,muscle wings,muscle tail,muscle body,muscle legs,jaws head,anubis horns,muscle eyes
-14,thunderbolt wings,abyssal tail,abyssal body,abyssal legs,vampire head,abyssal horns,abyssal eyes
-15,knife wings,mace tail,fur body,gargoyle legs,dumb head,nipper horns,anubis eyes
-16,fins wings,marshmellow tail,dusk body,dusk legs,masked head,braid horns,clam eyes
-17,curtain wings,mavericks tail,arrow body,fur legs,alligator head,triceratops horns,thunder eyes
-18,armadillo wings,armadillo tail,armadillo body,maori legs,arrow head,harpoon horn,bored eyes
-19,magnet wings,eyelashes tail,nipper body,stars legs,fangs head,antennas horns,mercurius eyes
-20,dawn wings,dawn tail,marshmellow body,spine legs,horn head,marshmellow horns,marshmellow eyes
-21,leonardo wings,lionfish tail,vshape body,rope legs,cat head,rope horns,goggles eyes
-22,sting wings,twist tail,ribs body,flame legs,shell head,claw horns,leaf eyes
-23,butterfly wings,punk tail,crown body,skeleton legs,sideburns head,crown horns,hammerhead eyes
-24,axe wings,octopus tail,elf body,diamonds legs,spikes head,loki horns,elf eyes
+Family,Wings,Tail,Body,Legs,Head,Horns,Eyes
+1,Original,Wicked sphinx,Sabotage stripes,Harpy,Demon minion,Satanic goat,Malevolent spellcasters
+2,Martial eagle,Bludgeon,Reinforced shogun,Tactical claws,Raccoon,Dead branch,Ninja
+3,Leaf blade,Dusk in the fog,Plastron,Shell,Imp,Rhinophore,Fire Ant
+4,Panel,Spiked mace,Cage,Mercurial,Sage,Kudu,Flame
+5,Comb,Firestarter,Claws,Ivy,War,Dusk,Intense
+6,Icharus,Armored,Robot,Brain-controlled Bionic,Gargoyle,Metal beetle,Cyborg
+7,Flaming Skull,Lazy,Six Pack,Elephant,Grinmace,Spellbound Lyre,Cutting Edge
+8,Ribs,Braid,Dawn,Horned,Bearded,Mercurial,Whack
+9,Battle gnawed,Regenerated,Still standing,Scarred,Craggy,Twist again,Rheumy
+10,Snaggle tooth,Venetian curlicue,Armored,Bulletproof,Lizard,Taurus,Comfortably numb
+11,Rabid Bat,Hook crook,Winged,Stripped bare,Bone cage,Reinforced pincers,Phantom
+12,Kite massacre,Cudgel,Studtastic,Lanced,Hobgoblin,Dark heart,Feline
+13,Hercules drag,Tough,Buff AF,Gym rat,Spike Jaw,Anubis,Soul sucking
+14,Thunderbolt storm,Scaled up,Black water,Warts,Toad,Half cocked,Fathomless
+15,Slice n' dice,Mace,Fur-tastic,Gargoyle,Who me?,Precision pincers,Anubis
+16,Frond,Twisted taffy,Lava and ash,Dusk,Masked marvel,Shaman stick,Clamshell
+17,Lacewing,Mavericks,Poison Arrow,Ugg-tastic,Alligator,Triceratops,Thunderous
+18,Heat proof tiles,Armadillo,Armadillo,Tribal tats,Diamantine,Skull bashers,Bedroom
+19,Magnetically controlled,Kardashian lashes,Nipper,Stars align,Fangsy free,Yagi Antennas,Searing
+20,Devil's Dawn,Dawn,Gooey marshmallow,Spine tingling,Billow brows,Hard n' soft,Hangover puffy
+21,Leonardo,Lionfish,Voyager,Dope rope,Felliformia/Meow-mi,Intreccio,Ingenue
+22,Sting,Corkscrew,Armored ribs,Firestarters,Metal sheath,Trice deadly,Leaf
+23,Foiling,Punk,Crown,Exoskeleton,Muttonchops,Spikes galore,Hammerhead stealth
+24,Small Axe,Mini kraken,Elf,Harlequin chic,Steampunk,Loki,Jade amulet
+1B,Topaz,,,,,,
+2B,Kestrel,,,Mayhem talons,,,
+4B,,Rainbow flail,,,,,
+5B,,,,,,,Wisdom stack
+6B,,,,,,Cornicello,
+7B,,,,Reinforced clawlegs,,Shaman spellbinders,Radiant amber
+8B,Battle shredded,,,,,,
+11B,,,,,,Lucky red,
+12B,Poison tipped,Piercing guilt,Studs n' stripes,Horny tubercles,,Golden screwhorn ,Glowing sclerotic rings
+14B,,,,,,,Poison spiked
+15B,,,,,,Battle gnawed,
+16B,,,,Harpy eagle claws,,,
+17B,Battle ragged,,,,,Satanic venom,
+18B,,,,,Great horned,Hunting tempered,
+19B,,,,Tribal elder,Hypnotic prism ,Narrow dispersion,
+20B,Golden whip,,,,Precious nose,,Crimson mask
+21B,,Fire arrow,,,,Helix piercing,
+22B,,Phantom hourglass,Wisdom amulets,Fire prism,Gold tooth,,
+23B,,,,,,Morning star prism,
+24B,Bright flight,,,Golden suneate,,,

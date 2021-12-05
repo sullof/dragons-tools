@@ -60,6 +60,15 @@ async function main() {
     data[i].Bg = backgroundsNewNames[backgrounds[i]]
     data[i].Powers = powerValues[i]
 
+    // let specialBgs = [
+    //   'Feuth',
+    //   'Kelwhosay',
+    //   'Sayshikim',
+    //   'Shyucuth',
+    //   'Streybur'
+    // ]
+    //
+    // exportPng = ~specialBgs.indexOf(data[i].Names)
     // exportPng = name === 'Rodeford'
     // exportPng = ~alteredIds.indexOf(data[i].TokenId)
     // exportPng = i > 123 && i < 134
