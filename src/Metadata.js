@@ -145,7 +145,7 @@ async function getMetadataJSON(data, missingParts, exportPng) {
     external_url: `https://everdragons2.com/nft/ed2/${data.Names}`,
     image: `https://img.everdragons2.com/ed2/${data.Names}.png`,
     name: data.Names,
-    // allTraitsTypes: ['Sky', 'Element', 'Color Palette', 'Generation', 'Purity Index', 'Aura', 'Wings', 'Tail', 'Body', 'Legs', 'Head', 'Horns', 'Eyes', 'Hoodie', 'Footwear', 'Sunglasses', 'Armor', 'Hornlets', 'Necklace', 'Piercing', 'Bracelets', 'Baby'],
+    // allTraitsTypes: ['Sky', 'Element', 'Color Palette', 'Generation', 'Purity level', 'Aura', 'Wings', 'Tail', 'Body', 'Legs', 'Head', 'Horns', 'Eyes', 'Hoodie', 'Footwear', 'Sunglasses', 'Armor', 'Hornlets', 'Necklace', 'Piercing', 'Bracelets', 'Baby'],
     // firstMutableTrait: 21,
     // colorPalette: colors2[elem.substring(0,1).toUpperCase()+ data.Color],
     attributes: [
@@ -230,14 +230,14 @@ async function getMetadataJSON(data, missingParts, exportPng) {
     }
   }
 
-  let purityIndex = 0
+  let purityLevel = 0
   for (let p in purity) {
-    purityIndex = Math.max(purityIndex, purity[p])
+    purityLevel = Math.max(purityLevel, purity[p])
   }
 
   metadata.attributes.push({
-    trait_type: 'Purity Index',
-    value: purityIndex
+    trait_type: 'Purity level',
+    value: purityLevel
   })
 
 

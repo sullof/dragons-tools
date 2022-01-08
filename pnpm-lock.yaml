@@ -8,6 +8,7 @@ specifiers:
   fs-extra: ^10.0.0
   fspath: ^0.15.0
   jsdom: ^18.0.0
+  lodash: ^4.17.21
   sharp: ^0.29.2
   xml2js: ^0.4.23
 
@@ -19,6 +20,7 @@ dependencies:
   fs-extra: 10.0.0
   fspath: 0.15.0
   jsdom: 18.0.0
+  lodash: 4.17.21
   sharp: 0.29.2
   xml2js: 0.4.23
 
@@ -925,6 +927,10 @@ packages:
     dependencies:
       prelude-ls: 1.1.2
       type-check: 0.3.2
+    dev: false
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: false
 
   /lru-cache/6.0.0:
