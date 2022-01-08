@@ -1,833 +1,522 @@
 [
   {
     "rank": 1,
-    "wallet": "0xE027582dF6156F78176Da29a1C7C63b5eabb26C6",
     "user": "laupau",
-    "discriminator": "9178",
-    "discord_id": "369076515159277569",
-    "winner": true
+    "wallet": "0xE027582dF6156F78176Da29a1C7C63b5eabb26C6"
   },
   {
     "rank": 2,
-    "wallet": "0x18F83Af7490c4Fb5Cd9DB2f996d305a1F9994688",
     "user": "Nik0gda",
-    "discriminator": "8775",
-    "discord_id": "290153967835414528",
-    "winner": true
+    "wallet": "0x18F83Af7490c4Fb5Cd9DB2f996d305a1F9994688"
   },
   {
     "rank": 3,
-    "wallet": "0x5372Fed7b55e7C584E7b15f42ACE879f25690637",
     "user": "DanDX21",
-    "discriminator": "8474",
-    "discord_id": "404355596318670868",
-    "winner": true
+    "wallet": "0x5372Fed7b55e7C584E7b15f42ACE879f25690637"
   },
   {
     "rank": 4,
-    "wallet": "0xbfa4c6616eB7682AdF99Eb5f662D30C751086051",
     "user": "Manager",
-    "discriminator": "2393",
-    "discord_id": "286157907475562497",
-    "winner": true
+    "wallet": "0xbfa4c6616eB7682AdF99Eb5f662D30C751086051"
   },
   {
     "rank": 5,
-    "wallet": "0x80B81Dd35AA80307CCA3216383e9d920b285fAFD",
     "user": "Waalse haan",
-    "discriminator": "9053",
-    "discord_id": "920335405772054598",
-    "winner": true
+    "wallet": "0x80B81Dd35AA80307CCA3216383e9d920b285fAFD"
   },
   {
     "rank": 6,
-    "wallet": "0x68E0fC72b41b93bDeF5B6E9EbDe0F84E0F2c045a",
     "user": "saldejummi",
-    "discriminator": "9695",
-    "discord_id": "170192561695227905",
-    "winner": true
+    "wallet": "0x68E0fC72b41b93bDeF5B6E9EbDe0F84E0F2c045a"
   },
   {
     "rank": 7,
-    "wallet": "0x23FFE9D9e0a724d7D1788cE9CfE53f81cC3A13CF",
     "user": "nanashi",
-    "discriminator": "2738",
-    "discord_id": "554321299975962625",
-    "winner": true
+    "wallet": "0x23FFE9D9e0a724d7D1788cE9CfE53f81cC3A13CF"
   },
   {
     "rank": 8,
-    "wallet": "0x828Fc8813E87515830A7Fb87079B910A25c1c571",
     "user": "discovery17",
-    "discriminator": "3527",
-    "discord_id": "371354901520973834",
-    "winner": true
+    "wallet": "0x828Fc8813E87515830A7Fb87079B910A25c1c571"
   },
   {
     "rank": 9,
-    "wallet": "0xaC552bF0F5f2C5be9bb9Db98C172Ab12C734a862",
     "user": "Herzog",
-    "discriminator": "6959",
-    "discord_id": "714187585538359388",
-    "winner": true
+    "wallet": "0xaC552bF0F5f2C5be9bb9Db98C172Ab12C734a862"
   },
   {
     "rank": 10,
-    "wallet": "0x0eC58c86020d3b0dCcd79A8D3cf841939eeEE25a",
     "user": "Don Paulau",
-    "discriminator": "1836",
-    "discord_id": "920064705324798002",
-    "winner": true
+    "wallet": "0x0eC58c86020d3b0dCcd79A8D3cf841939eeEE25a"
   },
   {
     "rank": 11,
-    "wallet": "0xa437f3075c4563FC7c9A62A78B073380b9b624d1",
     "user": "DankaShane💎",
-    "discriminator": "8331",
-    "discord_id": "247223253930606593",
-    "winner": true
+    "wallet": "0xa437f3075c4563FC7c9A62A78B073380b9b624d1"
   },
   {
     "rank": 12,
-    "wallet": "0x83421f49F1d4e1736CA59077D4dc67AAECAe0c07",
     "user": "ÄD'",
-    "discriminator": "7886",
-    "discord_id": "395233853926539264",
-    "winner": true
+    "wallet": "0x83421f49F1d4e1736CA59077D4dc67AAECAe0c07"
   },
   {
     "rank": 13,
-    "wallet": "0xa820A58254E6Ff4824d1c52cE7bE9526F9aF2093",
     "user": "pluimendief",
-    "discriminator": "3866",
-    "discord_id": "920068347922632794",
-    "winner": true
+    "wallet": "0xa820A58254E6Ff4824d1c52cE7bE9526F9aF2093"
   },
   {
     "rank": 14,
-    "wallet": "0x419875Ee04765e5dbB5d16b400B91222E23C58de",
     "user": "shangup",
-    "discriminator": "5736",
-    "discord_id": "691349298151161889",
-    "winner": true
+    "wallet": "0x419875Ee04765e5dbB5d16b400B91222E23C58de"
   },
   {
     "rank": 15,
-    "wallet": "0xd6156ec8Ff4a83567082419E4a37f8282b5cFdAa",
     "user": "La ratoncita",
-    "discriminator": "1533",
-    "discord_id": "920069510545961010",
-    "winner": true
+    "wallet": "0xd6156ec8Ff4a83567082419E4a37f8282b5cFdAa"
   },
   {
     "rank": 16,
-    "wallet": "0xC15B4577d9330Fb5C7090dD47250126500F0DA94",
     "user": "Achrafis90",
-    "discriminator": "0309",
-    "discord_id": "582554273905377310",
-    "winner": true
+    "wallet": "0xC15B4577d9330Fb5C7090dD47250126500F0DA94"
   },
   {
     "rank": 17,
-    "wallet": "0xbCE4191D4ef3300662A4be60889325664c910B0E",
     "user": "Telchar | C-01",
-    "discriminator": "5560",
-    "discord_id": "783326808484478976",
-    "winner": true
+    "wallet": "0xbCE4191D4ef3300662A4be60889325664c910B0E"
   },
   {
     "rank": 18,
-    "wallet": "0xDfFcBf87F7e26CcC5Cc5e55bce89F34d7e02672C",
     "user": "Doc",
-    "discriminator": "3114",
-    "discord_id": "578259578274185246",
-    "winner": true
+    "wallet": "0xDfFcBf87F7e26CcC5Cc5e55bce89F34d7e02672C"
   },
   {
     "rank": 19,
-    "wallet": "0x276103FA426AD43A83ac067E1b79D68A0c83f8Ac",
     "user": "Asma",
-    "discriminator": "7477",
-    "discord_id": "778705524572422196",
-    "winner": true
+    "wallet": "0x276103FA426AD43A83ac067E1b79D68A0c83f8Ac"
   },
   {
     "rank": 20,
-    "wallet": "0x284651cD24fcb74dA517b21a5e2E5fecC2f664e9",
     "user": "Talent",
-    "discriminator": "6503",
-    "discord_id": "423824748288540684",
-    "winner": true
+    "wallet": "0x284651cD24fcb74dA517b21a5e2E5fecC2f664e9"
   },
   {
     "rank": 21,
-    "wallet": "0x61642CAa6FbcCD08C2968A0b109B47AC50C89042",
     "user": "Goedn droake",
-    "discriminator": "1157",
-    "discord_id": "920357832442929233",
-    "winner": true
+    "wallet": "0x61642CAa6FbcCD08C2968A0b109B47AC50C89042"
   },
   {
     "rank": 22,
-    "wallet": "0xd16D9cdfD807B97359a02D40b6908485C599005E",
     "user": "Nick S.",
-    "discriminator": "9693",
-    "discord_id": "581143726911389706",
-    "winner": true
+    "wallet": "0xd16D9cdfD807B97359a02D40b6908485C599005E"
   },
   {
     "rank": 23,
-    "wallet": "0xB6B221851807c21ef8278736885960a99ab768a9",
     "user": "Bambino Andino",
-    "discriminator": "3434",
-    "discord_id": "833870350873264148",
-    "winner": true
+    "wallet": "0xB6B221851807c21ef8278736885960a99ab768a9"
   },
   {
     "rank": 24,
-    "wallet": "0x5170aBe6BB678A35343792ae550bABF743020F37",
     "user": "CptByte",
-    "discriminator": "9018",
-    "discord_id": "920069010329055254",
-    "winner": true
+    "wallet": "0x5170aBe6BB678A35343792ae550bABF743020F37"
   },
   {
     "rank": 25,
-    "wallet": "0x0e90f7273f64faFcB644964AD3f75ec3810d7Dc5",
     "user": "Zamolxe",
-    "discriminator": "7980",
-    "discord_id": "919685273175093298",
-    "winner": true
+    "wallet": "0x0e90f7273f64faFcB644964AD3f75ec3810d7Dc5"
   },
   {
     "rank": 26,
-    "wallet": "0x53D1D3608F7a3793911F674A0b790D48992d3121",
     "user": "gentjino",
-    "discriminator": "8713",
-    "discord_id": "919679412042080307",
-    "winner": true
+    "wallet": "0x53D1D3608F7a3793911F674A0b790D48992d3121"
   },
   {
     "rank": 27,
-    "wallet": "0xef4D425a44A6Cc87869f2AC4350E5dE3d0413a88",
     "user": "bababush",
-    "discriminator": "5912",
-    "discord_id": "690159909182111758",
-    "winner": true
+    "wallet": "0xef4D425a44A6Cc87869f2AC4350E5dE3d0413a88"
   },
   {
     "rank": 28,
-    "wallet": "0x03aca8aD0bb87Eb40B6BFDedaE858005c2682C0f",
     "user": "julienRT",
-    "discriminator": "7015",
-    "discord_id": "399467748469637120",
-    "winner": true
+    "wallet": "0x03aca8aD0bb87Eb40B6BFDedaE858005c2682C0f"
   },
   {
     "rank": 29,
-    "wallet": "0xb58D5CE9DE73d2Ff1090ae4dF535476A40D8A2e1",
     "user": "Lorenzo979",
-    "discriminator": "0781",
-    "discord_id": "919674001561890836",
-    "winner": true
+    "wallet": "0xb58D5CE9DE73d2Ff1090ae4dF535476A40D8A2e1"
   },
   {
     "rank": 30,
-    "wallet": "0xF77414A7a8efF9e31D999EdD79dA2314eBe14807",
     "user": "vetran",
-    "discriminator": "6025",
-    "discord_id": "823733589434040382",
-    "winner": true
+    "wallet": "0xF77414A7a8efF9e31D999EdD79dA2314eBe14807"
   },
   {
     "rank": 31,
-    "wallet": "0x42278D3bc84Bbaccb1B18D78690D06D848E384B6",
     "user": "Sami",
-    "discriminator": "9641",
-    "discord_id": "697061856778387456",
-    "winner": true
+    "wallet": "0x42278D3bc84Bbaccb1B18D78690D06D848E384B6"
   },
   {
     "rank": 32,
-    "wallet": "0x8d4612886C3A518B1404F0F995Ad4bdF7611c582",
     "user": "beatcode",
-    "discriminator": "2898",
-    "discord_id": "925988091125174323",
-    "winner": true
+    "wallet": "0x8d4612886C3A518B1404F0F995Ad4bdF7611c582"
   },
   {
     "rank": 33,
-    "wallet": "0x2d488cead71e524C5E7A1431C7f2b657Af9CACE7",
     "user": "MrKrockett",
-    "discriminator": "0731",
-    "discord_id": "356163522956361741",
-    "winner": true
+    "wallet": "0x2d488cead71e524C5E7A1431C7f2b657Af9CACE7"
   },
   {
     "rank": 34,
-    "wallet": "0xd437592071079B041fA6708D2FF58b99C97015eF",
     "user": "Acts238",
-    "discriminator": "9050",
-    "discord_id": "518359705974997003",
-    "winner": true
+    "wallet": "0xd437592071079B041fA6708D2FF58b99C97015eF"
   },
   {
     "rank": 35,
-    "wallet": "0x9e7641901059aC0F7f9Bb7Db14ff98a5cB20f03b",
     "user": "javishu",
-    "discriminator": "9924",
-    "discord_id": "919350988354248734",
-    "winner": true
+    "wallet": "0x9e7641901059aC0F7f9Bb7Db14ff98a5cB20f03b"
   },
   {
     "rank": 36,
-    "wallet": "0x79F854797AA4A3af617498f39DFC64870EE576A3",
     "user": "Vet",
-    "discriminator": "6926",
-    "discord_id": "374956319695699979",
-    "winner": true
+    "wallet": "0x79F854797AA4A3af617498f39DFC64870EE576A3"
   },
   {
     "rank": 37,
-    "wallet": "0x9d5124acCe38f438E6952C7ee5403d397812330f",
     "user": "noWin",
-    "discriminator": "5445",
-    "discord_id": "244223584921190403",
-    "winner": true
+    "wallet": "0x9d5124acCe38f438E6952C7ee5403d397812330f"
   },
   {
     "rank": 38,
-    "wallet": "0xdA817dD48ee0EFD57Ac5A83Cf94E43a9F1613925",
     "user": "NortePau",
-    "discriminator": "6056",
-    "discord_id": "919390322230968430",
-    "winner": true
+    "wallet": "0xdA817dD48ee0EFD57Ac5A83Cf94E43a9F1613925"
   },
   {
     "rank": 39,
-    "wallet": "0x7bA447591a6e31996e9DdF5ebb3B8c5B709a7DE2",
     "user": "Lyricistzoulal",
-    "discriminator": "2820",
-    "discord_id": "826206309795233802",
-    "winner": true
+    "wallet": "0x7bA447591a6e31996e9DdF5ebb3B8c5B709a7DE2"
   },
   {
     "rank": 40,
-    "wallet": "0x6BE26976f31B020fe5708dad62D6fD263743C79E",
     "user": "vlamingk",
-    "discriminator": "7964",
-    "discord_id": "401723280689725441",
-    "winner": true
+    "wallet": "0x6BE26976f31B020fe5708dad62D6fD263743C79E"
   },
   {
     "rank": 41,
-    "wallet": "0x082a2331Dc8E796B3d0D587063fBac6a887eb0d5",
     "user": "jerrivola",
-    "discriminator": "5402",
-    "discord_id": "919940249055027220",
-    "winner": true
+    "wallet": "0x082a2331Dc8E796B3d0D587063fBac6a887eb0d5"
   },
   {
     "rank": 42,
-    "wallet": "0x81145D5EC523eaeF392030107eC4AA192e2b7c91",
     "user": "Aragorn",
-    "discriminator": "9214",
-    "discord_id": "861113630959599668",
-    "winner": true
+    "wallet": "0x81145D5EC523eaeF392030107eC4AA192e2b7c91"
   },
   {
     "rank": 43,
-    "wallet": "0xD7FC32e69A361Ce58Dcb70B8B33633c0037DD96A",
     "user": "XxSatelliteheartsxX",
-    "discriminator": "0625",
-    "discord_id": "904773568565485591",
-    "winner": true
+    "wallet": "0xD7FC32e69A361Ce58Dcb70B8B33633c0037DD96A"
   },
   {
     "rank": 44,
-    "wallet": "0xb1F9e8941f83a8932C305c7a59b9A3C440772177",
     "user": "Warlich❌",
-    "discriminator": "4704",
-    "discord_id": "574207665908088841",
-    "winner": true
+    "wallet": "0xb1F9e8941f83a8932C305c7a59b9A3C440772177"
   },
   {
     "rank": 45,
-    "wallet": "0x2d68EE1Fd4da6Ae82Bd7d0eb806E8b67Ab419473",
     "user": "Fatfeeta",
-    "discriminator": "5513",
-    "discord_id": "697768753697521684",
-    "winner": true
+    "wallet": "0x2d68EE1Fd4da6Ae82Bd7d0eb806E8b67Ab419473"
   },
   {
     "rank": 46,
-    "wallet": "0x66f51cdE62447Ce240732b308A0f26d73765c434",
     "user": "Nouri",
-    "discriminator": "7285",
-    "discord_id": "697098712547328070",
-    "winner": true
+    "wallet": "0x66f51cdE62447Ce240732b308A0f26d73765c434"
   },
   {
     "rank": 47,
-    "wallet": "0xf664B5921945247B472C8CaEfeD2b9D21b485d6C",
     "user": "SkyEnder7 - TheSolaVerse",
-    "discriminator": "2667",
-    "discord_id": "635628853229781020",
-    "winner": true
+    "wallet": "0xf664B5921945247B472C8CaEfeD2b9D21b485d6C"
   },
   {
     "rank": 48,
-    "wallet": "0x676C34516117107fd380940c62D5Ef9cf08A7fe8",
     "user": "McKhronic",
-    "discriminator": "7818",
-    "discord_id": "309793672365342724",
-    "winner": true
+    "wallet": "0x676C34516117107fd380940c62D5Ef9cf08A7fe8"
   },
   {
     "rank": 49,
-    "wallet": "0x0F33867D31DA35976466d8cAE6535c6a01e55c8A",
     "user": "savannah",
-    "discriminator": "2529",
-    "discord_id": "371817844620394496",
-    "winner": true
+    "wallet": "0x0F33867D31DA35976466d8cAE6535c6a01e55c8A"
   },
   {
     "rank": 50,
-    "wallet": "0x11C24448EBAD91e87d398EDE25054835b6790385",
     "user": "KE2336",
-    "discriminator": "3285",
-    "discord_id": "531860722490146818",
-    "winner": true
+    "wallet": "0x11C24448EBAD91e87d398EDE25054835b6790385"
   },
   {
     "rank": 51,
-    "wallet": "0xd3DEFEfD7628270dA2D1672e3267778641767E53",
     "user": "BeautyAndTheBeast",
-    "discriminator": "2603",
-    "discord_id": "919300905361354773",
-    "winner": true
+    "wallet": "0xd3DEFEfD7628270dA2D1672e3267778641767E53"
   },
   {
     "rank": 52,
-    "wallet": "0xF3f538021fA8bB0F80CF4d2cC7c88D59e46d9699",
     "user": "Poesje Stoei",
-    "discriminator": "9607",
-    "discord_id": "873272908351422555",
-    "winner": true
+    "wallet": "0xF3f538021fA8bB0F80CF4d2cC7c88D59e46d9699"
   },
   {
     "rank": 53,
-    "wallet": "0x1b92666e873Dfbb47a0b09907d8e1d050315C5f5",
     "user": "jamojamo",
-    "discriminator": "8538",
-    "discord_id": "915025111474647040",
-    "winner": true
+    "wallet": "0x1b92666e873Dfbb47a0b09907d8e1d050315C5f5"
   },
   {
     "rank": 54,
-    "wallet": "0xA85Bb7E21a5bE106B7C4419A2Ba93551ccF8a0aB",
     "user": "[SC] TheBullsOfficial",
-    "discriminator": "4555",
-    "discord_id": "876131854758068226",
-    "winner": true
+    "wallet": "0xA85Bb7E21a5bE106B7C4419A2Ba93551ccF8a0aB"
   },
   {
     "rank": 55,
-    "wallet": "0x449F4E19f38E9f6d3167A6Ab3CCeFFBd2c6605dd",
     "user": "DrunkenCheetah",
-    "discriminator": "9123",
-    "discord_id": "168863260622192640",
-    "winner": true
+    "wallet": "0x449F4E19f38E9f6d3167A6Ab3CCeFFBd2c6605dd"
   },
   {
     "rank": 56,
-    "wallet": "0x80b6A56886010d880f3379B6FfCafC950b5D9AfD",
     "user": "ksiek",
-    "discriminator": "7871",
-    "discord_id": "293800639706955776",
-    "winner": true
+    "wallet": "0x80b6A56886010d880f3379B6FfCafC950b5D9AfD"
   },
   {
     "rank": 57,
-    "wallet": "0x8b0D8476b14055C980500486CA378160A8917c7C",
     "user": "Dr rabbit X5",
-    "discriminator": "9668",
-    "discord_id": "920009646062841906",
-    "winner": true
+    "wallet": "0x8b0D8476b14055C980500486CA378160A8917c7C"
   },
   {
     "rank": 58,
-    "wallet": "0x2e536FB44303658694FC794C7155EE360AF51762",
     "user": "cap1osmokaess",
-    "discriminator": "6155",
-    "discord_id": "703717233884528791",
-    "winner": true
+    "wallet": "0x2e536FB44303658694FC794C7155EE360AF51762"
   },
   {
     "rank": 59,
-    "wallet": "0x719aBD6a5f89ef371E4D3A130c462B6299f4180C",
     "user": "assoum",
-    "discriminator": "6466",
-    "discord_id": "928327448372858891",
-    "winner": true
+    "wallet": "0x719aBD6a5f89ef371E4D3A130c462B6299f4180C"
   },
   {
     "rank": 60,
-    "wallet": "0xB2A150290834f7CAbD6CB5275Ae610821d978cF4",
     "user": "Ravonus",
-    "discriminator": "1504",
-    "discord_id": "310847229449601025",
-    "winner": true
+    "wallet": "0xB2A150290834f7CAbD6CB5275Ae610821d978cF4"
   },
   {
     "rank": 61,
-    "wallet": "0x16997878E2263f7105134Ac5d0C853ED711878c5",
     "user": "saavedranator",
-    "discriminator": "4366",
-    "discord_id": "920037619876892712",
-    "winner": true
+    "wallet": "0x16997878E2263f7105134Ac5d0C853ED711878c5"
   },
   {
     "rank": 62,
-    "wallet": "0xe3F74105Bc4Ed2a34412e8c25b78C2C7dD9ad9D7",
     "user": "pineappledave",
-    "discriminator": "6717",
-    "discord_id": "832838683676770345",
-    "winner": true
+    "wallet": "0xe3F74105Bc4Ed2a34412e8c25b78C2C7dD9ad9D7"
   },
   {
     "rank": 63,
-    "wallet": "0x9ECd70C6018039840bD80c979492E6E2c833A19B",
     "user": "빳다",
-    "discriminator": "8491",
-    "discord_id": "495575605988032543",
-    "winner": true
+    "wallet": "0x9ECd70C6018039840bD80c979492E6E2c833A19B"
   },
   {
     "rank": 64,
-    "wallet": "0xa694CFDF27CD2ea74F17b19c9cbbe363A6F268c4",
     "user": "Cyan",
-    "discriminator": "4089",
-    "discord_id": "401472656957898755",
-    "winner": true
+    "wallet": "0xa694CFDF27CD2ea74F17b19c9cbbe363A6F268c4"
   },
   {
     "rank": 65,
-    "wallet": "0x63fB8023C825eed3450FED9ccF5eeE6000258A14",
     "user": "AriaTala",
-    "discriminator": "7607",
-    "discord_id": "718347464008007761",
-    "winner": true
+    "wallet": "0x63fB8023C825eed3450FED9ccF5eeE6000258A14"
   },
   {
     "rank": 66,
-    "wallet": "0x1AD149F94E768E7D0c7C9236c81C753bA381Fa72",
     "user": "MonkeyJoe",
-    "discriminator": "5801",
-    "discord_id": "895377404787322911",
-    "winner": true
+    "wallet": "0x1AD149F94E768E7D0c7C9236c81C753bA381Fa72"
   },
   {
     "rank": 67,
-    "wallet": "0x4b2b53AB8417452d77493C5e78BB6140d3951018",
     "user": "Shmoe",
-    "discriminator": "8187",
-    "discord_id": "620368558614118400",
-    "winner": true
+    "wallet": "0x4b2b53AB8417452d77493C5e78BB6140d3951018"
   },
   {
     "rank": 68,
-    "wallet": "0x38671F9A37bD37EA52aD63182D3Ff6a64e2692D6",
     "user": "Andykin Skywalker",
-    "discriminator": "6981",
-    "discord_id": "142707069512843265",
-    "winner": true
+    "wallet": "0x38671F9A37bD37EA52aD63182D3Ff6a64e2692D6"
   },
   {
     "rank": 69,
-    "wallet": "0xbAD415900333a9fABcb06631CD78E594A074D1d7",
     "user": "Muaiyedaff",
-    "discriminator": "9574",
-    "discord_id": "917326748608266330",
-    "winner": true
+    "wallet": "0xbAD415900333a9fABcb06631CD78E594A074D1d7"
   },
   {
     "rank": 70,
-    "wallet": "0x2cb255345940494ECB400704F3Ff7B387bf912E9",
     "user": "Mark1975",
-    "discriminator": "6928",
-    "discord_id": "883707246104707122",
-    "winner": true
+    "wallet": "0x2cb255345940494ECB400704F3Ff7B387bf912E9"
   },
   {
     "rank": 71,
-    "wallet": "0xf10aDeabbA8F744b9608916E2378D78eeCFc4781",
     "user": "Farkas",
-    "discriminator": "3588",
-    "discord_id": "390993227584634891",
-    "winner": true
+    "wallet": "0xf10aDeabbA8F744b9608916E2378D78eeCFc4781"
   },
   {
     "rank": 72,
-    "wallet": "0xB2dcA5F68F267deB0e9f07461F910DE2EBb7Db25",
     "user": "Naderi",
-    "discriminator": "3040",
-    "discord_id": "237343029738864640",
-    "winner": true
+    "wallet": "0xB2dcA5F68F267deB0e9f07461F910DE2EBb7Db25"
   },
   {
     "rank": 73,
-    "wallet": "0xCe1B4edf69c3e2E7d441859978e21DAFC500C036",
     "user": "Goose",
-    "discriminator": "6997",
-    "discord_id": "456587092479442945",
-    "winner": true
+    "wallet": "0xCe1B4edf69c3e2E7d441859978e21DAFC500C036"
   },
   {
     "rank": 74,
-    "wallet": "0x676A7f69c83Ca1b0FE0c8d8B923479C820617935",
     "user": "[LaTR] 2CBUMPS | Rookie",
-    "discriminator": "8468",
-    "discord_id": "467548549509283850",
-    "winner": true
+    "wallet": "0x676A7f69c83Ca1b0FE0c8d8B923479C820617935"
   },
   {
     "rank": 75,
-    "wallet": "0x92CDb5e72Bf667613e3698F42B19B1A49bC34b54",
     "user": "[LaTR] vortex | YMH Rookie",
-    "discriminator": "7276",
-    "discord_id": "742841517768441946",
-    "winner": true
+    "wallet": "0x92CDb5e72Bf667613e3698F42B19B1A49bC34b54"
   },
   {
     "rank": 76,
-    "wallet": "0x8380e9F508dcb06456737F6849e83daDDF2f96D2",
     "user": "Lastchance",
-    "discriminator": "8606",
-    "discord_id": "649442609068113942",
-    "winner": true
+    "wallet": "0x8380e9F508dcb06456737F6849e83daDDF2f96D2"
   },
   {
     "rank": 77,
-    "wallet": "0x5b49F719262FFf473628E2223971a0Ba2cafa62a",
     "user": "PoorlyLeopard",
-    "discriminator": "0791",
-    "discord_id": "911045969922101249",
-    "winner": true
+    "wallet": "0x5b49F719262FFf473628E2223971a0Ba2cafa62a"
   },
   {
     "rank": 78,
-    "wallet": "0xC6F678caC5444Fb4b346DecE54E882DB99251282",
     "user": "apap650q4h",
-    "discriminator": "2734",
-    "discord_id": "900755851969708083",
-    "winner": true
+    "wallet": "0xC6F678caC5444Fb4b346DecE54E882DB99251282"
   },
   {
     "rank": 79,
-    "wallet": "0x7BC6230B10824e28c57aE71fC98d80A4988F11a6",
     "user": "Sham",
-    "discriminator": "3313",
-    "discord_id": "315159825325490177",
-    "winner": true
+    "wallet": "0x7BC6230B10824e28c57aE71fC98d80A4988F11a6"
   },
   {
     "rank": 80,
-    "wallet": "0x854795EDBc9245E653956D2F68231b1e0Dd8Fc3C",
     "user": "VillageMouse",
-    "discriminator": "4529",
-    "discord_id": "725240947918635088",
-    "winner": true
+    "wallet": "0x854795EDBc9245E653956D2F68231b1e0Dd8Fc3C"
   },
   {
     "rank": 81,
-    "wallet": "0xaE9526a118dB2A81B3933b8F07A713137f910bFc",
     "user": "AbstrakT",
-    "discriminator": "0484",
-    "discord_id": "378230893464125443",
-    "winner": true
+    "wallet": "0xaE9526a118dB2A81B3933b8F07A713137f910bFc"
   },
   {
     "rank": 82,
-    "wallet": "0x5183bb89e37EBbB4fD53a8d760dd3A0AA4d8873A",
     "user": "Kritizen",
-    "discriminator": "3284",
-    "discord_id": "155404206931574784",
-    "winner": true
+    "wallet": "0x5183bb89e37EBbB4fD53a8d760dd3A0AA4d8873A"
   },
   {
     "rank": 83,
-    "wallet": "0x19b9afc2e6911378b38c6A41a8F5AE9b39BB4b15",
     "user": "LeeLoo",
-    "discriminator": "8908",
-    "discord_id": "769280029975904308",
-    "winner": true
+    "wallet": "0x19b9afc2e6911378b38c6A41a8F5AE9b39BB4b15"
   },
   {
     "rank": 84,
-    "wallet": "0x34C3C350b25546b013433B24763cE7F4cB8B246E",
     "user": "Miss Purple 💜",
-    "discriminator": "0919",
-    "discord_id": "900312348491915264",
-    "winner": true
+    "wallet": "0x34C3C350b25546b013433B24763cE7F4cB8B246E"
   },
   {
     "rank": 85,
-    "wallet": "0x07A71903fc191dD54902Fb9a53747dCDe0004E6b",
     "user": "Bits",
-    "discriminator": "0015",
-    "discord_id": "178752690124226560",
-    "winner": true
+    "wallet": "0x07A71903fc191dD54902Fb9a53747dCDe0004E6b"
   },
   {
     "rank": 86,
-    "wallet": "0x4cDBcAED05065486890aC801Eb62Fb2D1EEF9301",
     "user": "JFro",
-    "discriminator": "2461",
-    "discord_id": "839957713030742077",
-    "winner": true
+    "wallet": "0x4cDBcAED05065486890aC801Eb62Fb2D1EEF9301"
   },
   {
     "rank": 87,
-    "wallet": "0xe909d330C32cF748f17050D51e004fEc563Afe20",
     "user": "[LaTR]Alderaz1103",
-    "discord_id": "257016975987834880",
-    "winner": true
+    "wallet": "0xe909d330C32cF748f17050D51e004fEc563Afe20"
   },
   {
     "rank": 88,
-    "wallet": "0x29cb02180D8d689918cE2c50A3357798d6Fd9283",
     "user": "Madd_Dawg",
-    "discriminator": "2736",
-    "discord_id": "269865347903913994",
-    "winner": true
+    "wallet": "0x29cb02180D8d689918cE2c50A3357798d6Fd9283"
   },
   {
     "rank": 89,
-    "wallet": "0x2cF1C668aD1c0Cde7644B2D88A1AFcc716632097",
     "user": "[LaTR] Ali",
-    "discriminator": "0038",
-    "discord_id": "494144142121893889",
-    "winner": true
+    "wallet": "0x2cF1C668aD1c0Cde7644B2D88A1AFcc716632097"
   },
   {
     "rank": 90,
-    "wallet": "0xAf7dA76924D1C3e445aBd6b4EeBB4FEe474f21b6",
     "user": "Wind",
-    "discriminator": "4507",
-    "discord_id": "243494570682220544",
-    "winner": true
+    "wallet": "0xAf7dA76924D1C3e445aBd6b4EeBB4FEe474f21b6"
   },
   {
     "rank": 91,
-    "wallet": "0x88c36AaC04487C1CB8E998Cb76f6dd9cF10854b9",
     "user": "Arawen",
-    "discriminator": "6411",
-    "discord_id": "165514444514787328",
-    "winner": true
+    "wallet": "0x88c36AaC04487C1CB8E998Cb76f6dd9cF10854b9"
   },
   {
     "rank": 92,
-    "wallet": "0x5129fFc42F1F2Ca276AB72229fe70BA67A9A2e55",
     "user": "oilsngrains",
-    "discriminator": "4877",
-    "discord_id": "829016286268751884",
-    "winner": true
+    "wallet": "0x5129fFc42F1F2Ca276AB72229fe70BA67A9A2e55"
   },
   {
     "rank": 93,
-    "wallet": "0x4cc37bA6fc1DF63D20ecCf32218D831147240889",
     "user": "ShortyLonghorn",
-    "discriminator": "2872",
-    "discord_id": "784090102241427466",
-    "winner": true
+    "wallet": "0x4cc37bA6fc1DF63D20ecCf32218D831147240889"
   },
   {
     "rank": 94,
-    "wallet": "0xcdB1CD55354b3901c3ABc2Bd6D855f3FAd682690",
     "user": "Zeph",
-    "discriminator": "5594",
-    "discord_id": "795138782302568449",
-    "winner": true
+    "wallet": "0xcdB1CD55354b3901c3ABc2Bd6D855f3FAd682690"
   },
   {
     "rank": 95,
-    "wallet": "0x07F0c9C847816fDdF3A06021c871a9C76477857B",
     "user": "chigity2",
-    "discriminator": "9774",
-    "discord_id": "689325490791645245",
-    "winner": true
+    "wallet": "0x07F0c9C847816fDdF3A06021c871a9C76477857B"
   },
   {
     "rank": 96,
-    "wallet": "0x818A990726f49a984bc657013C280FcF01E531e8",
     "user": "bumzhabum",
-    "discriminator": "4564",
-    "discord_id": "530948730526892054",
-    "winner": true
+    "wallet": "0x818A990726f49a984bc657013C280FcF01E531e8"
   },
   {
     "rank": 97,
-    "wallet": "0xeb23A0b84282c512d67F880Fef252ABA370bbBF8",
     "user": "ChigityK",
-    "discriminator": "0042",
-    "discord_id": "674055802406961169",
-    "winner": true
+    "wallet": "0xeb23A0b84282c512d67F880Fef252ABA370bbBF8"
   },
   {
     "rank": 98,
-    "wallet": "0xD0334444424f881d9B30e5D54db3514574F1390c",
     "user": "MrLahey",
-    "discriminator": "9593",
-    "discord_id": "399789787940257792",
-    "winner": true
+    "wallet": "0xD0334444424f881d9B30e5D54db3514574F1390c"
   },
   {
     "rank": 99,
-    "wallet": "0x41100DD455BcF3612f476A6a8B8cB31b8fb79dcB",
     "user": "SplashAve",
-    "discriminator": "9025",
-    "discord_id": "888807343737933865",
-    "winner": true
+    "wallet": "0x41100DD455BcF3612f476A6a8B8cB31b8fb79dcB"
   },
   {
     "rank": 100,
-    "wallet": "0x4eb173b2A73875921FaCbf9e048C4B71Ec8C8818",
     "user": "FortKnox",
-    "discriminator": "3573",
-    "discord_id": "395063225231605760",
-    "winner": true
+    "wallet": "0x4eb173b2A73875921FaCbf9e048C4B71Ec8C8818"
   },
   {
     "rank": 101,
-    "wallet": "0x92c8D772D2b567329847CE859ba7283eE347bCF3",
     "user": "hobatss",
-    "discriminator": "4404",
-    "discord_id": "368493536053821441",
-    "winner": true
+    "wallet": "0x92c8D772D2b567329847CE859ba7283eE347bCF3"
   },
   {
     "rank": 102,
-    "wallet": "0xf52e3f7625B56A59F6CaA0aeAd91A1646C983bE8",
     "user": "Fergue",
-    "discriminator": "9845",
-    "discord_id": "259674988582404097",
-    "winner": true
+    "wallet": "0xf52e3f7625B56A59F6CaA0aeAd91A1646C983bE8"
   },
   {
     "rank": 103,
-    "wallet": "0x25B701921b03b78B2649be74c4a0bd33D1dB8146",
     "user": "Wynne",
-    "discriminator": "6591",
-    "discord_id": "919799276668862464",
-    "winner": true
+    "wallet": "0x25B701921b03b78B2649be74c4a0bd33D1dB8146"
   },
   {
     "rank": 104,
-    "wallet": "0x4Eaa53130475Db8E89D290AD784A680b96CFd038",
     "user": "Marsh",
-    "discriminator": "9503",
-    "discord_id": "915960503694655508",
-    "winner": true
+    "wallet": "0x4Eaa53130475Db8E89D290AD784A680b96CFd038"
   }
 ]
