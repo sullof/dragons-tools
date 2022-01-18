@@ -297,7 +297,7 @@
   {
     "rank": 60,
     "user": "Ravonus",
-    "wallet": "0xB2A150290834f7CAbD6CB5275Ae610821d978cF4"
+    "wallet": "0x30e64B8E4bacc2BAEf74AC59D33aB230A2889d50"
   },
   {
     "rank": 61,
@@ -518,5 +518,20 @@
     "rank": 104,
     "user": "Marsh",
     "wallet": "0x4Eaa53130475Db8E89D290AD784A680b96CFd038"
+  },
+  {
+    "rank": 105,
+    "user": "Totz",
+    "wallet": "0xa2a910Ea361d579572C8433552F47542410bfC4e"
+  },
+  {
+    "rank": 106,
+    "user": "DrFax | Samurai Saga",
+    "wallet": "0xC8682c320537f5F06a68998DF17b6C024AaB9881"
+  },
+  {
+    "rank": 107,
+    "user": "XclusiveGhost",
+    "wallet": "0xCb3a11ca01cFB5bF7284Ee323C9080530a8790E8"
   }
 ]
