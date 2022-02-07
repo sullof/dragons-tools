@@ -24,32 +24,27 @@
     ]
   },
   {
-    "address": "0x94839331d464BF67b98Cf22CB18016fAD9591A6D",
+    "address": "0xD4C5324E85730443C8E3395D81001619490f8D9B",
     "tokenIds": [
       5
     ]
   },
   {
-    "address": "0xb3651baE370426063289612f2bb8a165E20B5018",
+    "address": "0xE6a323b77F8Dd341f605466E7EE68460f293ab59",
     "tokenIds": [
       6
     ]
   },
   {
-    "address": "0x6229f746AD6C5b6346BDe69c7bA851C914F61A5D",
+    "address": "0xEA329c8D17F9fe872026Ee97C8E7Ad89ef8ACBB1",
     "tokenIds": [
       7
     ]
   },
   {
-    "address": "0x1c4623164201D07Eb1b80bC5cC00b99950D29aAC",
+    "address": "0xDF19a70D7C7E97611A0E0BA29D67eA3705e9E7A0",
     "tokenIds": [
-      8
-    ]
-  },
-  {
-    "address": "0xCc5Ce6bd5b47bf21cE53c73f83488e6E2B6D1fA7",
-    "tokenIds": [
+      8,
       9
     ]
   },
