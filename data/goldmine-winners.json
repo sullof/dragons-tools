@@ -872,7 +872,8 @@
   {
     "rank": 175,
     "user": "CptByte",
-    "wallet": "0x0e90f7273f64faFcB644964AD3f75ec3810d7Dc5"
+    "wallet": "0x0e90f7273f64faFcB644964AD3f75ec3810d7Dc5",
+    "removed": true
   },
   {
     "rank": 176,
