@@ -6,12 +6,14 @@ const goldmineWinners = require('../data/goldmine-winners.json')
 const giveawayWinners = require('../data/giveaway-winners.json')
 const team = require('../data/team-wallets.json')
 const lotteryWinners = require('../data/28-lottery-winners.json')
+const arg2Winner = require('../data/arg2-winner.json')
 
 console.log('giveawayWinners', giveawayWinners.length)
 console.log('goldmineWinners', goldmineWinners.length)
 console.log('argWinners', argWinners.length)
 console.log('team', team.length)
 console.log('lotteryWinners', lotteryWinners.length)
+console.log('argWinner', arg2Winner.length)
 
 async function main() {
 
@@ -20,25 +22,24 @@ async function main() {
   const allWinners = []
       .concat(team)
       .concat(giveawayWinners)
-      .concat(goldmineWinners)
+      .concat(goldmineWinners.filter(e => !e.removed))
       .concat(argWinners)
       .concat(lotteryWinners)
+      .concat(arg2Winner)
 
   console.log('Total', allWinners.length)
 
   for (let winner of allWinners) {
-    if (!winner.removed) {
-      if (!winner.wallet) {
-        console.log('Wallet missing for', winner)
-        winner.wallet = ethers.Wallet.createRandom().address
-      }
-      tmp[winner.wallet] = (tmp[winner.wallet] || 0) + 1
+    if (!winner.wallet) {
+      console.log('Wallet missing for', winner)
+      winner.wallet = ethers.Wallet.createRandom().address
     }
+    tmp[winner.wallet] = (tmp[winner.wallet] || 0) + 1
   }
   let nextTokenId = 1
   for (let address in tmp) {
     let tokenIds = []
-    for (let j=0;j<tmp[address];j++) {
+    for (let j = 0; j < tmp[address]; j++) {
       tokenIds.push(nextTokenId++)
     }
     whitelist.push({
