@@ -1,0 +1,8 @@
+{
+  "name": "Everdragons2 Genesis Token",
+  "description": "A collection of 1000 dragons pseudo-randomly generated from hundreds of assets. They inherit the legacy of Everdragons, minted in 2018 as the first bridgeable cross-chain non-fungible token (NFT)  for gaming. In the marvelous upcoming Origins, the play-to-earn game of the Everdragons Metaverse, holders of Everdragons2 will get a Loot Box containing Obsidian (the Origins token), Settlement Plans, and Genesis Units based on rarity.",
+  "image": "https://img.everdragons2.com/assets/dragon.png",
+  "external_link": "https://everdragons2.com",
+  "seller_fee_basis_points": 250,
+  "fee_recipient": "0xC2D5AD847dB63dF5434B9F148F37C8fE8173C03c"
+}

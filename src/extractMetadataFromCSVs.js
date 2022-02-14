@@ -49,7 +49,7 @@ const allNamesExceptPreminted = []
 async function main() {
   for (let i = 0; i < data.length; i++) {
 
-    let exportPng = false
+    let exportPng = true
     let name = data[i].Names
     if (!~preMinted.indexOf(name)) {
       allNamesExceptPreminted.push(name)
@@ -81,15 +81,18 @@ async function main() {
     )
     // if (i === 134) process.exit()
     result.push(metadata)
-    let metadataHead = await getHeadMetadataJSON(
-        data[i],
-        exportPng
-    )
-    resultHead.push(metadataHead)
+    // let metadataHead = await getHeadMetadataJSON(
+    //     data[i],
+    //     exportPng
+    // )
+    // resultHead.push(metadataHead)
+    if (!i %100) {
+      console.log(i)
+    }
   }
 
+  // process.exit()
   // console.log(JSON.stringify(result, null, 2))
-  // return
 
   // result = sortMetadata(result)
   let output = new fspath('data/allMetadataV2.json')
