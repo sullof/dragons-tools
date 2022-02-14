@@ -7,7 +7,7 @@ You can use this code setting your own DNA csv and the other parameters. However
 
 # Copyright
 
-2021 [Nduja Labs LLC'(https://ndujalabs.com)
+2021 [Nduja Labs LLC](https://ndujalabs.com)
 
 # License
 
