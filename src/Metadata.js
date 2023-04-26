@@ -91,7 +91,7 @@ async function renameSvg(id, name, dir, outdir = 'nameSVGs') {
 async function generatePngWithAura(data) {
   const name = capitalize(data.Names)
   let svg = path.resolve(__dirname, '../images/nameSVGs/' + name + '.svg')
-  let bg = path.resolve(__dirname, '../images/backgroundGenesis/' + data.BgFile + '.png')
+  let bg = path.resolve(__dirname, '../images/backgroundGenesis2/' + data.BgFile + '.png')
   let aura
   if (data.Aura) {
     aura = path.resolve(__dirname, '../images/auras/' + data.Aura + '.png')
@@ -103,7 +103,7 @@ async function generatePngWithAura(data) {
 async function generateHeadPngWithAura(data) {
   const name = capitalize(data.Names)
   let svg = path.resolve(__dirname, '../images/nameTransparentHeadPNGs/' + name + '.png')
-  let bg = path.resolve(__dirname, '../images/backgroundGenesis/' + data.BgFile + '.png')
+  let bg = path.resolve(__dirname, '../images/background/' + data.BgFile + '.png')
   let aura
   if (data.Aura) {
     aura = path.resolve(__dirname, '../images/auras/' + data.Aura + '.png')

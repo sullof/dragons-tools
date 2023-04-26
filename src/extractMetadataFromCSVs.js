@@ -1,7 +1,7 @@
 // const names = require('../data/dragonsNames.json')
 const fspath = require('fspath')
 const parse = require('csv-parse/lib/sync')
-// const csv = require('csvtojson')
+
 const {getMetadataJSON, getHeadMetadataJSON} = require('./Metadata')
 
 function capitalize(str) {
@@ -74,24 +74,24 @@ async function main() {
     // exportPng = i > 123 && i < 134
     // if (exportPng) console.log(data[i].Names, data[i].Aura)
 
-    let metadata = await getMetadataJSON(
-        data[i],
-        missingParts,
-        exportPng
-    )
-    // if (i === 134) process.exit()
-    result.push(metadata)
-    // let metadataHead = await getHeadMetadataJSON(
+    // let metadata = await getMetadataJSON(
     //     data[i],
+    //     missingParts,
     //     exportPng
     // )
+    // // if (i === 134) process.exit()
+    // result.push(metadata)
+    let metadataHead = await getHeadMetadataJSON(
+        data[i],
+        exportPng
+    )
     // resultHead.push(metadataHead)
-    if (!i %100) {
+    if (!(i %100)) {
       console.log(i)
     }
   }
 
-  // process.exit()
+  process.exit()
   // console.log(JSON.stringify(result, null, 2))
 
   // result = sortMetadata(result)
